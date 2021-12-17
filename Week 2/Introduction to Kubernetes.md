@@ -1,7 +1,4 @@
-﻿<center>
-
-![IDSN Logo](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/labs_module_1_images_IDSNlogo.png)
-</center>
+![IDSN Logo](./images/labs_module_1_images_IDSNlogo.png)
 
 # Introduction to Kubernetes
 
@@ -18,7 +15,7 @@ In this lab, you will:
 # Verify the environment and command line tools
 
 1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
-![New Terminal](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/new-terminal.png)
+![New Terminal](./images/new-terminal.png)
 
 2.  Verify that `kubectl` CLI is installed.
 ```
@@ -129,7 +126,7 @@ kubectl get pods
 Imperative object configuration lets you create objects by specifying the action to take (e.g., create, update, delete) while using a configuration file. A configuration file, `hello-world-create.yaml`, is provided to you in this directory.
 
 1.  Use the Explorer to view and edit the configuration file. Click the Explorer icon (it looks like a sheet of paper) on the left side of the window, and then navigate to the directory for this lab: `CC201 > labs > 2_IntroKubernetes`. Click `hello-world-create.yaml` to view the configuration file.
-![Imperative Object Configuration File in Explorer](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/2_IntroKubernetes/images/imperative-obj-config-explorer.png)
+![Imperative Object Configuration File in Explorer](./images/imperative-obj-config-explorer.png)
 
 2.  Use the Explorer to edit `hello-world-create.yaml`. You need to insert your namespace where it says `<my_namespace>`. Make sure to save the file when you're done.
     
@@ -229,7 +226,7 @@ kubectl get services
 ```
 
 3.  Open a new terminal window using `Terminal > Split Terminal`.
-![Split the Terminal](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1_ContainersAndDocker/images/terminal-split.png)
+![Split the Terminal](./images/terminal-split.png)
 
 4.  Since the cluster IP is not accessible outside of the cluster, we need to create a proxy. Note that this is not how you would make an application externally accessible in a production scenario. Run this command in the new terminal window since your environment variables need to be accessible in the original window for subsequent commands.
 ```
