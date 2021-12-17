@@ -1,7 +1,4 @@
-﻿<center>
-
-![IDSN Logo](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/labs_module_1_images_IDSNlogo.png)
-</center>
+![IDSN Logo](./images/labs_module_1_images_IDSNlogo.png)
 
 # Scaling and Updating Applications
 
@@ -16,7 +13,7 @@ In this lab, you will:
 # Verify the environment and command line tools
 
 1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
-![New Terminal](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/3_K8sScaleAndUpdate/images/new-terminal.png)
+![New Terminal](./images/new-terminal.png)
 
 2.  Change to your project folder.
 ```
@@ -74,7 +71,7 @@ kubectl expose deployment/hello-world
 This creates a service of type ClusterIP.
 
 5.  Open a new terminal window using `Terminal > Split Terminal`.
-![Split the Terminal](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1_ContainersAndDocker/images/terminal-split.png)
+![Split the Terminal](./images/terminal-split.png)
     
 6.  Cluster IPs are only accesible within the cluster. To make this externally accessible, we will create a proxy. Note that this is not how you would make an application externally accessible in a production scenario. Run this command in the new terminal window since your environment variables need to be accessible in the original window for subsequent commands.
 ```
