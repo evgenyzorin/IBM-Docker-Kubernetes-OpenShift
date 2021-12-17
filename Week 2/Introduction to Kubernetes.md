@@ -14,7 +14,7 @@ In this lab, you will:
 
 # Verify the environment and command line tools
 
-1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
+1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.</br>
 ![New Terminal](./images/new-terminal.png)
 
 2.  Verify that `kubectl` CLI is installed.
@@ -225,7 +225,7 @@ This command creates what is called a ClusterIP Service. This creates an IP addr
 kubectl get services
 ```
 
-3.  Open a new terminal window using `Terminal > Split Terminal`.
+3.  Open a new terminal window using `Terminal > Split Terminal`.</br>
 ![Split the Terminal](./images/terminal-split.png)
 
 4.  Since the cluster IP is not accessible outside of the cluster, we need to create a proxy. Note that this is not how you would make an application externally accessible in a production scenario. Run this command in the new terminal window since your environment variables need to be accessible in the original window for subsequent commands.
