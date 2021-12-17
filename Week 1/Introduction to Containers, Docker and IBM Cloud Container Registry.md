@@ -15,7 +15,7 @@ In this lab, you will:
 
 # Verify the environment and command line tools
 
-1.  Open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
+1.  Open a terminal window by using the menu in the editor: `Terminal > New Terminal`.</br>
 ![New Terminal](./images/new-terminal.png)
 
 2.  Verify that `docker` CLI is installed.
@@ -110,7 +110,7 @@ Congratulations on pulling an image and running your first container! Now let's 
 
 2.  Use the Explorer to view the files needed for this app. Click the Explorer icon (it looks like a sheet of paper) on the left side of the window, and then navigate to the directory for this lab: `CC201 > labs > 1_ContainersAndDocker`. Click `Dockerfile` to view the Dockerfile we'll use to build an image.
 
-If you don't understand any of the instructions in the Dockerfile, review the module videos.
+If you don't understand any of the instructions in the Dockerfile, review the module videos.</br>
 ![Dockerfile in Explorer](./images/dockerfile-explorer.png)
 
 3.  Run the following command to build the image:
@@ -138,7 +138,7 @@ docker run -p 8080:8080 myimage:v1
 
 The output should indicate that your application is listening on port 8080. This command will continue running until it is quit, since the container runs a web app that continually listens for requests. To query the app, we need to open another terminal window.
 
-2.  To split the terminal, click `Terminal > Split Terminal`.
+2.  To split the terminal, click `Terminal > Split Terminal`.</br>
 ![Split the Terminal](./images/terminal-split.png)
 
 3.  In the second terminal window, use the `curl` command to ping the application.
