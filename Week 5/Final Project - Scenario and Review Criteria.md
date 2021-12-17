@@ -46,8 +46,4 @@ Lavanya
 | ---------- | ------- | ---------- | ----------------------- |
 | 2021-05-01 | 0.1     | Lavanya    | Initial version created |
 
-<center>
-
 ### © IBM Corporation 2020. All rights reserved.
-
-</center>
