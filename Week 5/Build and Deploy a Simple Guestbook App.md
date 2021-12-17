@@ -1,7 +1,4 @@
-﻿<center>
-
-![IDSN Logo](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/5_FinalProject_Coursera/images/labs_module_1_images_IDSNlogo.png)
-</center>
+![IDSN Logo](./images/labs_module_1_images_IDSNlogo.png)
 
 # Final Project
 
@@ -28,8 +25,8 @@ We will deploy and manage this entire application on OpenShift.
 
 # Verify the environment and command line tools
 
-1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
-![New Terminal](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/5_FinalProject_Coursera/images/new-terminal.png)
+1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.</br>
+![New Terminal](./images/new-terminal.png)
 
 2.  Change to your project folder.
 ```
@@ -279,8 +276,8 @@ But remember that we still need a Watson Tone Analyzer service to complete the a
     
 2.  Sign in with your personal account. You should have created one during a lab in the first module of this course.
     
-3.  In the search box, type "tone analyzer". A dropdown should show appear and show services. Click the "Tone Analyzer" service as seen in the image below.
-![Catalog Search Tone Analyzer](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/5_FinalProject_Coursera/images/catalog-search-tone-analyzer.png)
+3.  In the search box, type "tone analyzer". A dropdown should show appear and show services. Click the "Tone Analyzer" service as seen in the image below.</br>
+![Catalog Search Tone Analyzer](./images/catalog-search-tone-analyzer.png)
 
 4.  You'll create an instance on the Lite plan, which is free. Take note of the resource group, as you'll need this later. It may be something like "Default". Leave all the default options and click **Create**. This will take you to a details page for the service instance.
 
