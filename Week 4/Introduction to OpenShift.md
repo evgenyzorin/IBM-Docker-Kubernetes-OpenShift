@@ -13,7 +13,7 @@ In this lab, you will:
 
 # Verify the environment and command line tools
 
-1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.
+1.  If a terminal is not already open, open a terminal window by using the menu in the editor: `Terminal > New Terminal`.</br>
 ![New Terminal](./images/new-terminal.png)
 
 2.  Verify that `oc` CLI is installed.
@@ -70,14 +70,14 @@ In addition to the CLI, OpenShift provides an intuitive web console. This is a u
 
 Let's open up the console and have a look around.
 
-1.  Open the OpenShift web console using the link at the top of the lab environment. It can take a few minutes to become available after opening the lab environment, so if you get an error, wait a minute and try again.
+1.  Open the OpenShift web console using the link at the top of the lab environment. It can take a few minutes to become available after opening the lab environment, so if you get an error, wait a minute and try again.</br>
 ![Open OpenShift Web Console](./images/open-web-console.png)
 
 2.  The console should open to the project details for the project you have been assigned. Take a look at all the information OpenShift provides you in an intuitive, visual manner. Click through the Dashboard, Overview, and other tabs for this project to see additional information. You should see inventory on the resources that currently exist in this project, the YAML that defines this project, and much more.
     
 3.  Familiarize yourself with the items in the left navigation menu. You can see Operators, many different Kubernetes objects, and some OpenShift-specific objects, all of which we have talked about in this course. There won't yet be many instances of these objects, but they will fill up once we deploy our application.
     
-4.  Notice the word "Administrator" at the top left. This indicates that you are in the Administrator perspective. There is also a Developer perspective. Each perspective provides workflows specific to that persona. Switch to the Developer perspective to begin deploying an application. (If it says "Developer" already, don't change it.)
+4.  Notice the word "Administrator" at the top left. This indicates that you are in the Administrator perspective. There is also a Developer perspective. Each perspective provides workflows specific to that persona. Switch to the Developer perspective to begin deploying an application. (If it says "Developer" already, don't change it.)</br>
 ![Web Console Perspectives](./images/console-perspectives.png)
 
 # Deploy an application in the web console
@@ -88,7 +88,7 @@ The Developer perspective provides workflows specific to developer use cases, su
 
 2.  There are several ways to add a new application in OpenShift. Choose the **From Catalog** option.
 
-3.  Search for "node" and click the **Node.js** tile. Click **Create Application** in the window that pops up.
+3.  Search for "node" and click the **Node.js** tile. Click **Create Application** in the window that pops up.</br>
 ![Node in Catalog](./images/node-in-catalog.png)
 
 4.  You should now be on a screen to create a source-to-image application. Recall that this means OpenShift will deploy an application using only one input from you: the application source. Beneath the **Git Repo URL** box, click **Try Sample**. This will populate the field with the URL of a sample application.
