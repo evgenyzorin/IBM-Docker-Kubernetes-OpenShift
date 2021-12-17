@@ -1,7 +1,4 @@
-﻿<center>
-
-![IDSN Logo](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/5_FinalProject_Coursera/images/IDSNlogo.png)
-</center>
+![IDSN Logo](./images/IDSNlogo.png)
 
 # Final Project: Scenario and Review Criteria
 
