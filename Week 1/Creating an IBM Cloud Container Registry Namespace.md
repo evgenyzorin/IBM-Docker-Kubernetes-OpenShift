@@ -33,25 +33,25 @@ IBM Cloud Container Registry is a multi-tenant registry in the public cloud. Nam
     
 2.  In the **Search the catalog…** box, type `Container Registry` and press Enter on your keyboard.
     
-3.  Click the **Container Registry** tile in the search results.  
+3.  Click the **Container Registry** tile in the search results.</br>
 ![Container Registry Tile](./images/registry-tile.png)
 
-4.  You can now read about the Container Registry service and visit links for API documentation and docs about how to use the service.  
+4.  You can now read about the Container Registry service and visit links for API documentation and docs about how to use the service.</br>
 ![Registry Catalog](./images/registry-catalog.png)
 
 5.  At the top right, click **Get started**.
 
-6.  Ensure that the location is set to **Dallas**.  
+6.  Ensure that the location is set to **Dallas**.</br>
 ![Container Registry Location](./images/registry-location.png)
 
-7.  Click the **Namespaces** tab.  
+7.  Click the **Namespaces** tab.</br>
 ![Container Registry Namespaces Menu](./images/registry-namespaces-menu.png)
 
 8.  On the right side of the Namespaces panel, click **Create**. A **Create namespace** panel opens.
 
 9.  In the **Resource group** field, select the name of the resource group you would like this namespace to reside in. For this lab, you can simply leave the selection as **default**.
 
-10.  In the **Name** field, type a unique name for the namespace. The name must be unique across all users of the Container Registry service in this region.
+10.  In the **Name** field, type a unique name for the namespace. The name must be unique across all users of the Container Registry service in this region.</br>
 ![Container Registry Namespace Create](./images/registry-namespace-create.png)
 
 11.  Click **Create** at the bottom of the panel to create the namespace.
