@@ -1,6 +1,6 @@
 # :rocket: Introduction to Containers w/ Docker, Kubernetes & OpenShift by IBM
 
-This repository contains the Labs and the Final Project of the Introduction to Containers w/ Docker, Kubernetes &amp; OpenShift course provided by IBM on Coursera.
+This repository contains the Labs and the Final Project of the [Introduction to Containers w/ Docker, Kubernetes &amp; OpenShift](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift) course provided by IBM on Coursera.
 
 ## :file_folder: [Week 1: Understanding the Benefits of Containers](https://github.com/evgenyzorin/IBM-Docker-Kubernetes-OpenShift/tree/main/Week%201)
 ### Understanding the Benefits of Containers
